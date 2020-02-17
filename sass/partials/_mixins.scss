@@ -1,0 +1,25 @@
+@mixin set-bg-bottom-center($imgA){
+    background-image: url($imgA);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+@mixin set-bg-cover($imgA){
+    background-image: url($imgA);
+    background-position: center center;
+    background-size: cover;
+}
+
+@mixin set-min-height($objA,$heightA){
+    .#{$objA}{
+        min-height: $heightA;
+    }
+}
+
+@mixin set-minh-array($objArrA,$heightA){
+    @for $i from 1 through length($objArrA){
+        @include set-min-height(nth($objArrA,$i),$heightA);
+    }
+}

@@ -1,0 +1,19 @@
+$color-black: #000;
+$color-gray: #999;
+$full-height: 100vh;
+$half-height: 50vh;
+$index-s1-bg: "../img/section-bg-1.jpg";
+$index-s2-bg: "../img/section-bg-2.jpg";
+$index-s4-bg: "../img/section-bg-4.jpg";
+$index-s5-bg: "../img/section-bg-5.png";
+$section-full-height:
+    "error-s2",
+    "index-s1";
+$section-half-height:
+    "index-s2",
+    "index-s3",
+    "index-s4",
+    "index-s5",
+    "index-s6";
+$shadow-black: 0 0 5px $color-black;
+$shadow-gray: 1px 1px 3px $color-gray;

@@ -1,0 +1,112 @@
+/* line 1, ../sass/partials/_layout.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/partials/_layout.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.error-s2 {
+  min-height: 100vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s1 {
+  min-height: 100vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s2 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s3 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s4 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s5 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s6 {
+  min-height: 50vh;
+}
+
+/* line 2, ../sass/partials/_modules.scss */
+.bg-black {
+  background-color: #000;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.index-s1 {
+  background-image: url("../img/section-bg-1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+/* line 10, ../sass/partials/_modules.scss */
+.index-s2 {
+  background-image: url("../img/section-bg-2.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 13, ../sass/partials/_modules.scss */
+.index-s4 {
+  background-image: url("../img/section-bg-4.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 16, ../sass/partials/_modules.scss */
+.index-s5 {
+  background-image: url("../img/section-bg-5.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 21, ../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 24, ../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+/* line 28, ../sass/partials/_modules.scss */
+.overlay-fade {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+/* line 29, ../sass/partials/_modules.scss */
+.overlay-fade:hover {
+  opacity: 0.7;
+}
+
+/* line 39, ../sass/partials/_modules.scss */
+.text-shadow-black {
+  text-shadow: 0 0 5px #000;
+}
+/* line 42, ../sass/partials/_modules.scss */
+.text-shadow-gray {
+  text-shadow: 1px 1px 3px #999;
+}
+
+/* line 48, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}

@@ -1,0 +1,50 @@
+.bg{
+    &-black{
+        background-color: $color-black;
+    }
+}
+.index{
+    &-s1{
+        @include set-bg-cover($index-s1-bg);
+    }
+    &-s2{
+        @include set-bg-bottom-center($index-s2-bg);
+    }
+    &-s4{
+        @include set-bg-bottom-center($index-s4-bg);
+    }
+    &-s5{
+        @include set-bg-bottom-center($index-s5-bg);
+    }
+}
+.opacity{
+    &-8{
+        opacity: 0.8;
+    }
+    &-9{
+        opacity: 0.9;
+    }
+}
+.overlay-fade{
+    &:hover{
+        opacity: 0.7;
+    }
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+.text{
+    &-shadow{
+        &-black{
+            text-shadow: $shadow-black;
+        }
+        &-gray{
+            text-shadow: $shadow-gray;
+        }
+    }
+}
+
+textarea{
+    resize: none;
+}
