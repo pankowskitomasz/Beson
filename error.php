@@ -49,9 +49,9 @@
         </nav>
         <section class="container-fluid index-s1 bg-dark text-white d-flex">
             <div class="row my-auto mx-auto d-flex w-100">
-                <div class="mx-auto text-center text-shadow-black">
-                    <h1 class="display-3 font-weight-bold">BESON</h1>
-                    <h2 class="h4 text-muted font-weight-bold">
+                <div class="mx-auto text-center text-shadow-black font-logo opacity-8">
+                    <h1 class="display-3">BESON</h1>
+                    <h2 class="h4 text-muted">
                         <span class="text-white">UNIKATE</span> AUS WEIMAR
                     </h2>
                 </div>
@@ -60,7 +60,7 @@
         <section class="container error-s2 d-flex py-5" id="message">
             <div class="row my-auto">
                 <div class="col-10 col-md-8 offset-1 offset-md-2 text-left">                    
-                    <h3 class="text-center mb-3 text-shadow-gray font-weight-bold">
+                    <h3 class="text-center mb-3 text-shadow-gray font-weight-bold font-header">
                         ERROR!
                     </h3>
                     <p class="initialism text-center">

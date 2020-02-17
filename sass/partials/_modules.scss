@@ -3,6 +3,14 @@
         background-color: $color-black;
     }
 }
+.font{
+    &-header{
+        font-family: $font-header;
+    }
+    &-logo{
+        font-family: $font-logo;
+    }
+}
 .index{
     &-s1{
         @include set-bg-cover($index-s1-bg);
