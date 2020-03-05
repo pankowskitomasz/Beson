@@ -119,37 +119,43 @@ body, html {
   background-size: contain;
 }
 
-/* line 29, ../sass/partials/_modules.scss */
+/* line 28, ../sass/partials/_modules.scss */
+.modal-dialog {
+  cursor: pointer;
+  max-width: 75% !important;
+}
+
+/* line 33, ../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 32, ../sass/partials/_modules.scss */
+/* line 36, ../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 36, ../sass/partials/_modules.scss */
+/* line 40, ../sass/partials/_modules.scss */
 .overlay-fade {
   opacity: 0;
   transition-property: opacity;
   transition-duration: 0.7s;
   transition-timing-function: ease-in-out;
 }
-/* line 37, ../sass/partials/_modules.scss */
+/* line 41, ../sass/partials/_modules.scss */
 .overlay-fade:hover {
   opacity: 0.7;
 }
 
-/* line 47, ../sass/partials/_modules.scss */
+/* line 51, ../sass/partials/_modules.scss */
 .text-shadow-black {
   text-shadow: 0 0 5px #000;
 }
-/* line 50, ../sass/partials/_modules.scss */
+/* line 54, ../sass/partials/_modules.scss */
 .text-shadow-gray {
   text-shadow: 1px 1px 3px #999;
 }
 
-/* line 56, ../sass/partials/_modules.scss */
+/* line 60, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }

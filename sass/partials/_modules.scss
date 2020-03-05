@@ -25,6 +25,10 @@
         @include set-bg-bottom-center($index-s5-bg);
     }
 }
+.modal-dialog{
+    cursor: pointer;
+    max-width: 75% !important;
+}
 .opacity{
     &-8{
         opacity: 0.8;
