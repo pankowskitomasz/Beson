@@ -36,13 +36,13 @@ body, html {
 }
 
 /* line 16, ../sass/partials/_mixins.scss */
-.error-s2 {
-  min-height: 100vh;
+.index-s1 {
+  min-height: 50vh;
 }
 
 /* line 16, ../sass/partials/_mixins.scss */
-.index-s1 {
-  min-height: 100vh;
+.error-s2 {
+  min-height: 50vh;
 }
 
 /* line 16, ../sass/partials/_mixins.scss */
@@ -151,4 +151,14 @@ body, html {
 /* line 60, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
+}
+
+@media all and (max-width: 575px) {
+  /* line 65, ../sass/partials/_modules.scss */
+  .navbar-collapse {
+    border: 1px solid #666;
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    z-index: 10;
+  }
 }

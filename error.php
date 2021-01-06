@@ -39,11 +39,6 @@
                             <span class="fab fa-twitter-square"></span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="user.php" class="nav-link">
-                            <span class="fa fa-user"></span>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </nav>
@@ -86,8 +81,10 @@
 		        </div>
                 <div class="col-12">
                     <small class="text-white-50">
-                        Website demo, Copyright &copy; 2020 |
-                        <a href="privacy.html#terms" class="text-white-50">Privacy</a>
+                        Copyright &copy; 2020-2021 Tomasz Pankowski |
+                        <a href="privacy.html#terms" class="text-white-50">
+                            Privacy policy
+                        </a>
                     </small>
                 </div>
             </div>
