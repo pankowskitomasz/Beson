@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+
+@include set-minh-array($section-full-height,$full-height);
+@include set-minh-array($section-half-height,$half-height);

@@ -1,0 +1,154 @@
+/* latin */
+@font-face {
+  font-family: 'Carter One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Carter One"), local("CarterOne"), url(../fonts/q5uCsoe5IOB2-pXv9UcNExN8hA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Krona One"), local("KronaOne-Regular"), url(../fonts/jAnEgHdjHcjgfIb1ZcUyOIWg7cU.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Krona One"), local("KronaOne-Regular"), url(../fonts/jAnEgHdjHcjgfIb1ZcUyNoWg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* line 1, ../sass/partials/_layout.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/partials/_layout.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.error-s2 {
+  min-height: 100vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s1 {
+  min-height: 100vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s2 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s3 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s4 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s5 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.index-s6 {
+  min-height: 50vh;
+}
+
+/* line 2, ../sass/partials/_modules.scss */
+.bg-black {
+  background-color: #000;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.font-header {
+  font-family: "Carter One", cursive;
+}
+/* line 10, ../sass/partials/_modules.scss */
+.font-logo {
+  font-family: "Krona One", sans-serif;
+}
+
+/* line 15, ../sass/partials/_modules.scss */
+.index-s1 {
+  background-image: url("../img/section-bg-1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+/* line 18, ../sass/partials/_modules.scss */
+.index-s2 {
+  background-image: url("../img/section-bg-2.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 21, ../sass/partials/_modules.scss */
+.index-s4 {
+  background-image: url("../img/section-bg-4.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 24, ../sass/partials/_modules.scss */
+.index-s5 {
+  background-image: url("../img/section-bg-5.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 28, ../sass/partials/_modules.scss */
+.modal-dialog {
+  cursor: pointer;
+  max-width: 75% !important;
+}
+
+/* line 33, ../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 36, ../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+/* line 40, ../sass/partials/_modules.scss */
+.overlay-fade {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+/* line 41, ../sass/partials/_modules.scss */
+.overlay-fade:hover {
+  opacity: 0.7;
+}
+
+/* line 51, ../sass/partials/_modules.scss */
+.text-shadow-black {
+  text-shadow: 0 0 5px #000;
+}
+/* line 54, ../sass/partials/_modules.scss */
+.text-shadow-gray {
+  text-shadow: 1px 1px 3px #999;
+}
+
+/* line 60, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
