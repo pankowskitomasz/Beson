@@ -11,6 +11,9 @@
         font-family: $font-logo;
     }
 }
+.icon{
+    font-size: 25px;
+}
 .index{
     &-s1{
         @include set-bg-cover($index-s1-bg);
