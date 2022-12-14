@@ -9,6 +9,12 @@
         <meta property="og:url" content="">
         <meta property="og:image" content="">
         <meta property="og:locale" content="de_DE">
+        <meta name="keywords" content="beson,unikate,weimar">
+        <meta name="description" content="Als Architekturstudent an der Bauhaus-Universität Weimar 
+            entwerfe ich leidenschaftlich und setzte dabei auf höchste 
+            Qualität und schlichtes Design. In jedes Detail stecke ich 
+            eine Menge Liebe und handwerkliches Geschick, damit du 
+            garantiert ein besons Einzelstück erhältst!">
         <link rel="stylesheet" type="text/css" href="css/styles.min.css">
         <link rel="stylesheet" type="text/css" href="css/all.min.css">
         <link rel="icon" href="img/favicon.png"/>
@@ -25,7 +31,7 @@
                 <ul class="nav navbar-nav ml-auto h3">
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">
-                            <span class="fa fa-home"></span>
+                            <span class="icon fa fa-home"></span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -33,7 +39,7 @@
                             class="nav-link"
                             rel="noopener noreferrer nofollow"
                             target="_blank">
-                            <span class="fab fa-facebook-square"></span>
+                            <span class="icon fab fa-facebook-square"></span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -41,7 +47,7 @@
                             class="nav-link"
                             rel="noopener noreferrer nofollow"
                             target="_blank">
-                            <span class="fab fa-twitter-square"></span>
+                            <span class="icon fab fa-twitter-square"></span>
                         </a>
                     </li>
                 </ul>
@@ -77,7 +83,7 @@
                 </div>
             </div>
         </section>        
-        <footer class="container-fluid bg-black text-white p-3">
+        <footer class="container-fluid bg-black text-white pt-3 border-top border-secondary">
             <div class="row text-center">
                 <div class="col-12">
                     <a href="index.html" class="mx-auto">
@@ -86,7 +92,7 @@
 		        </div>
                 <div class="col-12">
                     <small class="text-white-50">
-                        Copyright &copy; 2020-2021 Tomasz Pankowski |
+                        Copyright &copy; 2020-2022 Tomasz Pankowski |
                         <a href="privacy.html#terms" class="text-white-50">
                             Privacy policy
                         </a>
